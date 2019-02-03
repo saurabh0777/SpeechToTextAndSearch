@@ -9,7 +9,7 @@ import pyperclip
 import win32com.client
 import voice.error_route as err
 
-app_id = "P2496K-JA3U2QUWL4"
+app_id = "Enter your key"
 cl = wolframalpha.Client(app_id)                                                        #api for wolfram alpha
 v = win32com.client.Dispatch("SAPI.SpVoice")
 
